@@ -55,7 +55,8 @@ const UserManual = () => {
 <li className="mb-2">El sistema debe permitir al usuario una interfaz intuitiva y fácil de usar, con opciones de navegación claramente definidas.</li>
 <li className="mb-2">El sistema debe permitir a la página ser desplegada en distintas páginas web.</li>
 <li className="mb-2">El sistema debe permitir al administrador asignar roles y permisos a los usuarios, limitando el acceso a ciertas funcionalidades del sistema según sus responsabilidades.</li>
-</ul>
+<li className="mb-2">El sistema debe requerir de un "@" para los campos Email </li>
+                </ul>
             </section>
             <div className="flex justify-center">
         <Button className="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-lg">
