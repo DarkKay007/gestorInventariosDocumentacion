@@ -37,26 +37,25 @@ const UserManual = () => {
                 <h3 className="text-xl font-semibold text-purple-400 mb-2">Requerimientos</h3>
                 <ul className="list-decimal list-inside text-purple-300">
                     <li className="mb-2">El sistema debe permitir al administrador el registro de nuevos productos.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador editar la información de los productos registrados.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador la capacidad de eliminar productos del inventario, con la opción de confirmación para evitar eliminaciones accidentales.</li>
-                    <li className="mb-2">El sistema debe permitir al usuario la búsqueda de productos por nombre.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador un mecanismo para visualizar la lista completa de productos en el inventario, mostrando el precio de cada uno.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador implementar un sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y modificar el inventario.</li>
-                    <li className="mb-2">El sistema debe permitir al Usuario cerrar sesión.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador acceder a una opción para visualizar las existencias de productos.</li>
-                    <li className="mb-2">El sistema debe permitir al empleado generar informes.</li>
-                    <li className="mb-2">El sistema debe permitir al usuario una interfaz intuitiva y fácil de usar, con opciones de navegación claramente definidas.</li>
-                    <li className="mb-2">El sistema debe permitir a la página ser desplegada en distintas páginas web.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador un sistema de respaldo y recuperación de datos para garantizar la integridad y disponibilidad de la información en caso de fallos o pérdidas de datos.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador implementar un sistema de notificaciones para alertar a los usuarios sobre eventos importantes, como niveles críticos de existencias o transacciones pendientes de aprobación.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador asignar roles y permisos a los usuarios, limitando el acceso a ciertas funcionalidades del sistema según sus responsabilidades.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador acceder a un sistema que cumpla con los estándares de seguridad de la industria para proteger la información confidencial del inventario.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador realizar un seguimiento del historial de precios de los productos, mostrando las fechas y razones de las modificaciones.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador proporcionar una función de escaneo de códigos de barras para agilizar el registro y la búsqueda de productos.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador crear etiquetas personalizadas para los productos, facilitando su identificación y clasificación en el inventario.</li>
-                    <li className="mb-2">El sistema debe permitir al administrador la creación de kits o conjuntos de productos, con la capacidad de gestionar las existencias de cada componente individualmente.</li>
-                    <li className="mb-2">El sistema debe permitirle al administrador realizar un seguimiento del ciclo de vida de los productos, desde su ingreso al inventario hasta su eventual eliminación.</li>
-                </ul>
+<li className="mb-2">El sistema debe permitir al administrador editar la información de los productos registrados.</li>
+<li className="mb-2">El sistema debe permitir al administrador la capacidad de eliminar productos del inventario, con la opción de confirmación para evitar eliminaciones accidentales.</li>
+<li className="mb-2">El sistema debe permitir al administrador el registro de nuevos usuarios.</li>
+<li className="mb-2">El sistema debe permitir al administrador editar la información de los usuarios registrados.</li>
+<li className="mb-2">El sistema debe permitir al administrador eliminar la información de los usuarios registrados, con la opción de confirmación para evitar eliminaciones accidentales.</li>
+<li className="mb-2">El sistema debe permitir al usuario visualizar los productos registrados con sus precios.</li>
+<li className="mb-2">El sistema debe permitir visualizar en la parte superior derecha el email de la persona registrada.</li>
+<li className="mb-2">El sistema debe permitir desplegar la barra de opciones ubicada en la parte izquierda.</li>
+<li className="mb-2">El sistema debe permitir acceder a la documentación de la página ubicada en el pie de la página.</li>
+<li className="mb-2">El sistema debe permitir al administrador un mecanismo para visualizar la lista completa de productos en el inventario.</li>
+<li className="mb-2">El sistema debe permitir que una persona no registrada pueda hacerlo desde el login.</li>
+<li className="mb-2">El sistema debe permitir al administrador implementar un sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y modificar el inventario.</li>
+<li className="mb-2">El sistema debe permitir al usuario cerrar sesión.</li>
+<li className="mb-2">El sistema debe permitir al administrador acceder a una opción para visualizar las existencias de productos.</li>
+<li className="mb-2">El sistema debe permitir al usuario generar una factura.</li>
+<li className="mb-2">El sistema debe permitir al usuario una interfaz intuitiva y fácil de usar, con opciones de navegación claramente definidas.</li>
+<li className="mb-2">El sistema debe permitir a la página ser desplegada en distintas páginas web.</li>
+<li className="mb-2">El sistema debe permitir al administrador asignar roles y permisos a los usuarios, limitando el acceso a ciertas funcionalidades del sistema según sus responsabilidades.</li>
+</ul>
             </section>
             <div className="flex justify-center">
         <Button className="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-lg">
